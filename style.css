@@ -75,6 +75,7 @@ body p {
 
 /* CARDS */
 .cards {
+  background-color: #fff;
   padding: 2rem;
   box-shadow: -2px 9px 17px -1px #bfbfbf;
   border-radius: 7px;
@@ -185,9 +186,9 @@ body p {
     max-height: 100%;
     margin: 50px;
     grid-template-areas:
-      "top-heading top-heading"
-      "card-1 card-2"
-      "card-3 card-4";
+      "top-heading  top-heading"
+          "card-1    card-2"
+          "card-3    card-4";
   }
 
   .cards,
